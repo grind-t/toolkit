@@ -4,8 +4,7 @@
     "module": "ESNext",
     "lib": ["ESNext"],
     "moduleResolution": "bundler",
-    "strict": true,
-    "outDir": "dist"
+    "strict": true
   },
   "include": ["lib"],
   "exclude": ["**/*.test.ts"]
