@@ -1,4 +1,4 @@
-import { firstArgument } from "./selectors";
+import { firstArgument } from "../fn/selectors";
 
 export function sum<T extends number>(array: number[]): number;
 export function sum<T>(array: T[], selector: (item: T) => number): number;

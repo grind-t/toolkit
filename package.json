@@ -7,13 +7,21 @@
   "files": [
     "dist"
   ],
-  "main": "./dist/index.umd.cjs",
-  "module": "./dist/index.js",
-  "types": "./dist/index.d.ts",
   "exports": {
-    ".": {
-      "import": "./dist/index.js",
-      "require": "./dist/index.umd.cjs"
+    "./nullish": {
+      "types": "./dist/nullish.d.ts",
+      "import": "./dist/nullish.js",
+      "require": "./dist/nullish.cjs"
+    },
+    "./array": {
+      "types": "./dist/array.d.ts",
+      "import": "./dist/array.js",
+      "require": "./dist/array.cjs"
+    },
+    "./fn": {
+      "types": "./dist/fn.d.ts",
+      "import": "./dist/fn.js",
+      "require": "./dist/fn.cjs"
     }
   },
   "scripts": {

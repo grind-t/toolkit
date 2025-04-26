@@ -1,4 +1,4 @@
-import { firstArgument, secondArgument } from "./selectors";
+import { firstArgument, secondArgument } from "../fn/selectors";
 
 type KeySelector<T, K> = (item: T, idx: number) => K;
 type ValueSelector<T, V> = (item: T, idx: number) => V;
