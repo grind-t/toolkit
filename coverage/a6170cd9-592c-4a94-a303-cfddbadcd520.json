@@ -1,0 +1,38 @@
+{
+  "scriptId": "336",
+  "url": "file:///home/grind-t/toolkit/src/date/get_years_label.ts",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 531,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "getYearsLabel",
+      "ranges": [
+        {
+          "startOffset": 7,
+          "endOffset": 530,
+          "count": 7
+        },
+        {
+          "startOffset": 176,
+          "endOffset": 359,
+          "count": 3
+        },
+        {
+          "startOffset": 359,
+          "endOffset": 529,
+          "count": 4
+        }
+      ],
+      "isBlockCoverage": true
+    }
+  ]
+}

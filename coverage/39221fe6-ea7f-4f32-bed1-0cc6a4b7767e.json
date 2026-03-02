@@ -1,0 +1,39 @@
+{
+  "scriptId": "340",
+  "url": "file:///home/grind-t/toolkit/src/fn/selectors.ts",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 86,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "firstArgument",
+      "ranges": [
+        {
+          "startOffset": 29,
+          "endOffset": 39,
+          "count": 5
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "secondArgument",
+      "ranges": [
+        {
+          "startOffset": 71,
+          "endOffset": 84,
+          "count": 3
+        }
+      ],
+      "isBlockCoverage": true
+    }
+  ]
+}

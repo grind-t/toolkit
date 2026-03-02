@@ -1,0 +1,39 @@
+{
+  "scriptId": "336",
+  "url": "file:///home/grind-t/toolkit/src/array/sum.ts",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 178,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "sum",
+      "ranges": [
+        {
+          "startOffset": 59,
+          "endOffset": 177,
+          "count": 3
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 143,
+          "endOffset": 170,
+          "count": 7
+        }
+      ],
+      "isBlockCoverage": true
+    }
+  ]
+}

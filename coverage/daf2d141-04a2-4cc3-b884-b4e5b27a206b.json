@@ -1,0 +1,28 @@
+{
+  "scriptId": "336",
+  "url": "file:///home/grind-t/toolkit/src/string/upper_first.ts",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 85,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "upperFirst",
+      "ranges": [
+        {
+          "startOffset": 7,
+          "endOffset": 84,
+          "count": 3
+        }
+      ],
+      "isBlockCoverage": true
+    }
+  ]
+}

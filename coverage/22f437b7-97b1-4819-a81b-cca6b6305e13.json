@@ -1,0 +1,28 @@
+{
+  "scriptId": "338",
+  "url": "file:///home/grind-t/toolkit/src/date/get_current_month_name.ts",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 253,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "getCurrentMonthName",
+      "ranges": [
+        {
+          "startOffset": 62,
+          "endOffset": 252,
+          "count": 2
+        }
+      ],
+      "isBlockCoverage": true
+    }
+  ]
+}

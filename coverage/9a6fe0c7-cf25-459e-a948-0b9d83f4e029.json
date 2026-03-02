@@ -1,0 +1,28 @@
+{
+  "scriptId": "371",
+  "url": "file:///home/grind-t/toolkit/src/string/lower_first.ts",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 85,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "lowerFirst",
+      "ranges": [
+        {
+          "startOffset": 7,
+          "endOffset": 84,
+          "count": 2
+        }
+      ],
+      "isBlockCoverage": true
+    }
+  ]
+}
