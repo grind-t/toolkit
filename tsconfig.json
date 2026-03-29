@@ -1,11 +1,12 @@
+// https://nodejs.org/api/typescript.html#type-stripping
 {
-  "compilerOptions": {
-    "target": "ESNext",
-    "module": "ESNext",
-    "lib": ["ESNext", "DOM"],
-    "moduleResolution": "bundler",
-    "strict": true
-  },
-  "include": ["lib"],
-  "exclude": ["**/*.test.ts"]
+	"compilerOptions": {
+		"noEmit": true,
+		"target": "esnext",
+		"module": "nodenext",
+		"allowImportingTsExtensions": true,
+		"verbatimModuleSyntax": true,
+		"skipLibCheck": true,
+		"strict": true
+	}
 }
