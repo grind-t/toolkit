@@ -9,29 +9,24 @@
   ],
   "exports": {
     "./nullish": {
-      "types": "./dist/nullish.d.ts",
-      "import": "./dist/nullish.js",
-      "require": "./dist/nullish.cjs"
+      "types": "./dist/nullish/index.d.ts",
+      "import": "./dist/nullish/index.js"
     },
     "./string": {
-      "types": "./dist/string.d.ts",
-      "import": "./dist/string.js",
-      "require": "./dist/string.cjs"
+      "types": "./dist/string/index.d.ts",
+      "import": "./dist/string/index.js"
     },
     "./array": {
-      "types": "./dist/array.d.ts",
-      "import": "./dist/array.js",
-      "require": "./dist/array.cjs"
+      "types": "./dist/array/index.d.ts",
+      "import": "./dist/array/index.js"
     },
     "./date": {
-      "types": "./dist/date.d.ts",
-      "import": "./dist/date.js",
-      "require": "./dist/date.cjs"
+      "types": "./dist/date/index.d.ts",
+      "import": "./dist/date/index.js"
     },
     "./fn": {
-      "types": "./dist/fn.d.ts",
-      "import": "./dist/fn.js",
-      "require": "./dist/fn.cjs"
+      "types": "./dist/fn/index.d.ts",
+      "import": "./dist/fn/index.js"
     }
   },
   "scripts": {

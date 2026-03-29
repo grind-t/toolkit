@@ -10,7 +10,7 @@ export default defineConfig({
 		"src/string/index.ts",
 	],
 	outDir: "dist",
-	format: ["esm", "cjs"],
+	format: "esm",
 	experimentalDts: true,
 	clean: true,
 });
