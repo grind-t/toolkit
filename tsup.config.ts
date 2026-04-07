@@ -7,6 +7,7 @@ export default defineConfig({
 		"src/date/index.ts",
 		"src/fn/index.ts",
 		"src/nullish/index.ts",
+		"src/object/index.ts",
 		"src/string/index.ts",
 	],
 	outDir: "dist",

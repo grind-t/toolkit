@@ -27,6 +27,10 @@
     "./fn": {
       "types": "./dist/fn/index.d.ts",
       "import": "./dist/fn/index.js"
+    },
+    "./object": {
+      "types": "./dist/object/index.d.ts",
+      "import": "./dist/object/index.js"
     }
   },
   "scripts": {
