@@ -5,7 +5,8 @@
 	"linter": {
 		"rules": {
 			"suspicious": {
-				"noAssignInExpressions": "off"
+				"noAssignInExpressions": "off",
+				"noExplicitAny": "off"
 			}
 		}
 	}

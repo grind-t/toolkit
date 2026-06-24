@@ -9,6 +9,7 @@ export default defineConfig({
 		"src/nullish/index.ts",
 		"src/object/index.ts",
 		"src/string/index.ts",
+		"src/stream/index.ts"
 	],
 	outDir: "dist",
 	format: "esm",

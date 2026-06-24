@@ -31,6 +31,10 @@
     "./object": {
       "types": "./dist/object/index.d.ts",
       "import": "./dist/object/index.js"
+    },
+    "./stream": {
+      "types": "./dist/stream/index.d.ts",
+      "import": "./dist/stream/index.js"
     }
   },
   "scripts": {
