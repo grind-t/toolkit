@@ -1,66 +1,66 @@
 {
   "name": "@grind-t/toolkit",
   "version": "2.5.0",
-  "author": "grind-t",
   "description": "Natural problem solver's toolkit",
-  "type": "module",
-  "files": [
-    "dist"
-  ],
-  "exports": {
-    "./nullish": {
-      "types": "./dist/nullish/index.d.ts",
-      "import": "./dist/nullish/index.js"
-    },
-    "./string": {
-      "types": "./dist/string/index.d.ts",
-      "import": "./dist/string/index.js"
-    },
-    "./array": {
-      "types": "./dist/array/index.d.ts",
-      "import": "./dist/array/index.js"
-    },
-    "./date": {
-      "types": "./dist/date/index.d.ts",
-      "import": "./dist/date/index.js"
-    },
-    "./fn": {
-      "types": "./dist/fn/index.d.ts",
-      "import": "./dist/fn/index.js"
-    },
-    "./object": {
-      "types": "./dist/object/index.d.ts",
-      "import": "./dist/object/index.js"
-    },
-    "./stream": {
-      "types": "./dist/stream/index.d.ts",
-      "import": "./dist/stream/index.js"
-    }
+  "homepage": "https://github.com/grind-t/toolkit#readme",
+  "bugs": {
+    "url": "https://github.com/grind-t/toolkit/issues"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit",
-    "lint": "npx @biomejs/biome check --write",
-    "test:unit": "node --experimental-transform-types --experimental-test-module-mocks --test \"src/**/*.unit.test.ts\"",
-    "test:e2e": "node --experimental-transform-types --experimental-test-module-mocks --test \"src/**/*.e2e.test.ts\"",
-    "test": "node --experimental-transform-types --experimental-test-module-mocks --test \"src/**/*.test.ts\"",
-    "check": "npm run typecheck && npm run lint && npm run test",
-    "build": "tsup"
-  },
+  "license": "ISC",
+  "author": "grind-t",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/grind-t/toolkit.git"
   },
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/grind-t/toolkit/issues"
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "exports": {
+    "./nullish": {
+      "types": "./dist/nullish/index.d.mts",
+      "import": "./dist/nullish/index.mjs"
+    },
+    "./string": {
+      "types": "./dist/string/index.d.mts",
+      "import": "./dist/string/index.mjs"
+    },
+    "./array": {
+      "types": "./dist/array/index.d.mts",
+      "import": "./dist/array/index.mjs"
+    },
+    "./date": {
+      "types": "./dist/date/index.d.mts",
+      "import": "./dist/date/index.mjs"
+    },
+    "./fn": {
+      "types": "./dist/fn/index.d.mts",
+      "import": "./dist/fn/index.mjs"
+    },
+    "./object": {
+      "types": "./dist/object/index.d.mts",
+      "import": "./dist/object/index.mjs"
+    },
+    "./stream": {
+      "types": "./dist/stream/index.d.mts",
+      "import": "./dist/stream/index.mjs"
+    },
+    "./package.json": "./package.json"
   },
-  "homepage": "https://github.com/grind-t/toolkit#readme",
+  "scripts": {
+    "fmt": "oxfmt",
+    "lint": "oxlint --fix",
+    "test:unit": "node --experimental-transform-types --experimental-test-module-mocks --test \"src/**/*.unit.test.ts\"",
+    "test:e2e": "node --experimental-transform-types --experimental-test-module-mocks --test \"src/**/*.e2e.test.ts\"",
+    "test": "node --experimental-transform-types --experimental-test-module-mocks --test \"src/**/*.test.ts\"",
+    "build": "tsdown"
+  },
   "devDependencies": {
-    "@biomejs/biome": "latest",
-    "@microsoft/api-extractor": "latest",
-    "@swc/core": "latest",
     "@types/node": "latest",
-    "tsup": "latest",
+    "oxfmt": "latest",
+    "oxlint": "latest",
+    "oxlint-tsgolint": "latest",
+    "tsdown": "latest",
     "typescript": "latest"
   }
 }
