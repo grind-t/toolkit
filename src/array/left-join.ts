@@ -4,10 +4,10 @@ type Prefixed<T, P extends string> = {
   [K in keyof T as K extends string ? `${P}${P extends "" ? K : Capitalize<K>}` : K]: T[K];
 };
 
-export function mergeBy<T extends object, U extends object, P extends string = "">(
+export function leftJoin<T extends object, U extends object, P extends string = "">(
+  right: U[],
   leftKey: keyof T,
   rightKey: keyof U,
-  right: U[],
   prefix?: P,
 ): (item: T) => (T & Partial<Prefixed<U, P>>)[] {
   const index = new Map<unknown, Prefixed<U, P>[]>();
